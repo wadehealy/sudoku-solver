@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+
+  .puzzle-wrapper {
+    display: flex;
+
+    > div {
+      margin-right: 40px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .row {
+    margin-bottom: 5px;
+    display: flex;
+
+    .number {
+      width: 25px;
+    }
+  }
+
+  .button {
+    
+  }
+}
